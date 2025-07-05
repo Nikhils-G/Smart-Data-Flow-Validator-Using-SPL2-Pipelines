@@ -1,0 +1,26 @@
+from splunk_logs
+where timestamp >= relative_time(now(), "-4h")
+| timechart span=1m count as event_count, count(eval(log_level="ERROR")) as errors, count(eval(log_level="WARN")) as warnings by source
+| fillnull value=0 event_count, errors, warnings
+| eval expected_count = avg(event_count) over all_time
+| eval error_rate = errors / event_count, warning_rate = warnings / event_count
+| streamstats values(_time) as time_window window=2
+| eval time_diff = time_window[1] - time_window[0]
+| eval is_gap = if(time_diff > 60, 1, 0)
+| eval spike_threshold = expected_count * 2
+| eval is_spike = if(event_count > spike_threshold, 1, 0)
+| eval spike_severity = (event_count - expected_count) / expected_count
+| eventstats sum(is_gap) as total_gaps, sum(is_spike) as total_spikes, stdev(event_count) as event_stdev, avg(event_count) as event_avg
+| eval gap_penalty = (total_gaps / count()) * 100
+| eval spike_penalty = (total_spikes / count()) * 50
+| eval consistency_score = 100 - (event_stdev / event_avg) * 100
+| eval error_penalty = avg(error_rate) * 100
+| eval warning_penalty = avg(warning_rate) * 50
+| eval health_score = 100 - (gap_penalty * 0.3) - (spike_penalty * 0.2) - (error_penalty * 0.3) - (warning_penalty * 0.2) + (consistency_score * 0.5)
+| stats max(health_score) as final_score, total_gaps, total_spikes, avg(error_rate) as error_rate, avg(warning_rate) as warning_rate
+| eval health_status = case(
+    final_score > 85, "OPTIMAL",
+    final_score > 70, "STABLE",
+    final_score > 50, "DEGRADED",
+    true, "CRITICAL"
+)
