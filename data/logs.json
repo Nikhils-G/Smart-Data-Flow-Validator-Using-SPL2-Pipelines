@@ -1,0 +1,3482 @@
+[
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:00:00Z",
+    "source": "DB-Server-01",
+    "log_level": "INFO",
+    "message": "Connection established to database"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "502 Bad Gateway from service B"
+  },
+  {
+    "timestamp": "2025-07-05T09:01:30Z",
+    "source": "Web-App-02",
+    "log_level": "WARN",
+    "message": "Slow response detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:00Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Query executed on orders table"
+  },
+  {
+    "timestamp": "2025-07-05T09:02:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "User login successful"
+  },
+  {
+    "timestamp": "2025-07-05T09:03:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Health check passed for API-Gateway"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:00Z",
+    "source": "API-Gateway",
+    "log_level": "ERROR",
+    "message": "Timeout while contacting microservice C"
+  },
+  {
+    "timestamp": "2025-07-05T09:04:30Z",
+    "source": "Web-App-02",
+    "log_level": "DEBUG",
+    "message": "User clicked on dashboard tab"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:00Z",
+    "source": "Auth-Service",
+    "log_level": "WARN",
+    "message": "Multiple failed login attempts"
+  },
+  {
+    "timestamp": "2025-07-05T09:05:30Z",
+    "source": "Cache-Node-01",
+    "log_level": "INFO",
+    "message": "Cache hit for product details"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:00Z",
+    "source": "API-Gateway",
+    "log_level": "INFO",
+    "message": "GET /products returned 200"
+  },
+  {
+    "timestamp": "2025-07-05T09:06:30Z",
+    "source": "Web-App-02",
+    "log_level": "INFO",
+    "message": "Rendered homepage components"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:00Z",
+    "source": "DB-Server-01",
+    "log_level": "WARN",
+    "message": "High query latency detected"
+  },
+  {
+    "timestamp": "2025-07-05T09:07:30Z",
+    "source": "Queue-Processor",
+    "log_level": "ERROR",
+    "message": "Failed to process message from payment queue"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:00Z",
+    "source": "Load-Balancer",
+    "log_level": "INFO",
+    "message": "Routing request to Web-App-02"
+  },
+  {
+    "timestamp": "2025-07-05T09:08:30Z",
+    "source": "Auth-Service",
+    "log_level": "INFO",
+    "message": "Token validation passed"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:00Z",
+    "source": "Cache-Node-01",
+    "log_level": "DEBUG",
+    "message": "Eviction triggered for LRU item"
+  },
+  {
+    "timestamp": "2025-07-05T09:09:30Z",
+    "source": "Web-App-02",
+    "log_level": "ERROR",
+    "message": "Unhandled exception during checkout"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:00Z",
+    "source": "Payment-Service",
+    "log_level": "INFO",
+    "message": "Payment gateway responded with success"
+  },
+  {
+    "timestamp": "2025-07-05T09:10:30Z",
+    "source": "DB-Server-01",
+    "log_level": "DEBUG",
+    "message": "Fetched 20 records from inventory table"
+  },
+]
