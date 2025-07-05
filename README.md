@@ -1,8 +1,3 @@
-Here’s a **top-level `README.md`** file written in a natural, professional tone. It's clean, well-organized, and detailed to reflect your project’s depth and purpose — perfect for showing off in your GitHub repo:
-
----
-
-```markdown
 # Smart Data Flow Validator Using SPL2 Pipelines
 
 This project showcases a complete observability and log intelligence system built around the capabilities of SPL2 (Search Processing Language). Designed specifically for Track 3 of the Splunk Hackathon – *Data Management (SPL2 Pipelines)* – the dashboard validates real-time data flow across multiple sources, identifies log anomalies, and converts raw logs into insightful metrics to support scalable monitoring.
