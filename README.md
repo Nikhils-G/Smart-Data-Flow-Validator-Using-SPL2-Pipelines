@@ -1,4 +1,4 @@
-# Log Health Intelligence Engine
+# Log Health Intelligence Engine [loghealthIntelliegence](https://loghealthintelligence-engine.netlify.app/)
 ## Smart Data Flow Validator Using SPL2 Pipelines
 
 This project showcases a complete observability and log intelligence system built around the capabilities of SPL2 (Search Processing Language). Designed specifically for Track 3 of the Splunk Hackathon – *Data Management (SPL2 Pipelines)* – the dashboard validates real-time data flow across multiple sources, identifies log anomalies, and converts raw logs into insightful metrics to support scalable monitoring.
